@@ -1,0 +1,4 @@
+Device0|CH1|Data Frame|Standard Frame|0x001|8|00 DA 00 19 00 00 00 3f
+Device0|CH1|Data Frame|Standard Frame|0x001|8|00 DA 00 14 00 00 00 3f
+Device0|CH1|Data Frame|Standard Frame|0x001|8|00 DA 00 17 00 00 00 5f
+Device0|CH1|Data Frame|Standard Frame|0x001|8|00 DA 00 16 00 00 00 ff

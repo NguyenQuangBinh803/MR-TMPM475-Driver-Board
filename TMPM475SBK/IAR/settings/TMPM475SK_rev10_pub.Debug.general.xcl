@@ -1,0 +1,15 @@
+"D:\soft\arm\bin\armproc.dll" 
+
+"D:\soft\arm\bin\armJET.dll" 
+
+"D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\IAR\Debug\Exe\TMPM475SK_rev10_pub.out" 
+
+--plugin="D:\soft\arm\bin\armbat.dll" 
+
+--device_macro="D:\soft\arm\config\debugger\Toshiba\TMPM475.dmac" 
+
+--flash_loader="D:\soft\arm\config\flashloader\Toshiba\FlashTMPM475FDFG.board" 
+
+
+
+

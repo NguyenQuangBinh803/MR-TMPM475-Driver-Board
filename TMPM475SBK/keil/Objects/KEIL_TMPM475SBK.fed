@@ -1,0 +1,167 @@
+;#<FEEDBACK># ARM Linker, 5060183: Last Updated: Fri Jul 01 11:30:40 2016
+;VERSION 0.2
+;FILE b_user.o
+__asm___8_B_User_c_4a1ac767____REV16 <= USED 0
+__asm___8_B_User_c_4a1ac767____REVSH <= USED 0
+;FILE c_control.o
+__asm___11_C_Control_c_2026d365____REV16 <= USED 0
+__asm___11_C_Control_c_2026d365____REVSH <= USED 0
+;FILE calc.o
+__asm___6_calc_c_Cal_Vdq____REV16 <= USED 0
+__asm___6_calc_c_Cal_Vdq____REVSH <= USED 0
+;FILE d_driver.o
+__asm___10_D_Driver_c_c7840f57____REV16 <= USED 0
+__asm___10_D_Driver_c_c7840f57____REVSH <= USED 0
+;FILE dac_drv.o
+__asm___9_dac_drv_c_DacNo____REV16 <= USED 0
+__asm___9_dac_drv_c_DacNo____REVSH <= USED 0
+;FILE e_sub.o
+__asm___7_E_Sub_c_E_Sine____REV16 <= USED 0
+__asm___7_E_Sub_c_E_Sine____REVSH <= USED 0
+;FILE initial.o
+__asm___9_initial_c_50a732f4____REV16 <= USED 0
+__asm___9_initial_c_50a732f4____REVSH <= USED 0
+init_ENCen <= USED 0
+;FILE interrupt.o
+INTVCN0 <= USED 0
+__asm___11_interrupt_c_50ccda2c____REV16 <= USED 0
+__asm___11_interrupt_c_50ccda2c____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_main____REV16 <= USED 0
+__asm___6_main_c_main____REVSH <= USED 0
+;FILE mcuip_drv_ave.o
+VE_SetVDCreg <= USED 0
+__asm___15_mcuip_drv_ave_c_c7c5ceef____REV16 <= USED 0
+__asm___15_mcuip_drv_ave_c_c7c5ceef____REVSH <= USED 0
+;FILE startup_tmpm475.o
+;FILE system_int.o
+INTENC0_IRQHandler <= USED 0
+INTENC1_IRQHandler <= USED 0
+__asm___12_system_int_c_bb8ca80c____REV16 <= USED 0
+__asm___12_system_int_c_bb8ca80c____REVSH <= USED 0
+;FILE system_tmpm475.o
+SystemCoreClockUpdate <= USED 0
+__asm___16_system_TMPM475_c_5d646a67____REV16 <= USED 0
+__asm___16_system_TMPM475_c_5d646a67____REVSH <= USED 0
+;FILE tmpm475_adc.o
+ADC_Disable <= USED 0
+ADC_DisableMonitor <= USED 0
+ADC_GetConvertState <= USED 0
+ADC_SelectPMDTrgProgNum <= USED 0
+ADC_SetMonitor <= USED 0
+ADC_SetPMDTrg <= USED 0
+ADC_SetPMDTrgProgINT <= USED 0
+ADC_SetSWTrg <= USED 0
+ADC_SetTimerTrg <= USED 0
+ADC_StopConstantTrg <= USED 0
+__asm___13_tmpm475_adc_c_3d6210fe____REV16 <= USED 0
+__asm___13_tmpm475_adc_c_3d6210fe____REVSH <= USED 0
+;FILE tmpm475_enc.o
+ENC_ClearCounter <= USED 0
+ENC_Disable <= USED 0
+ENC_Enable <= USED 0
+ENC_GetCompareValue <= USED 0
+ENC_GetControlMode <= USED 0
+ENC_GetCounterMCMP <= USED 0
+ENC_GetCounterValue <= USED 0
+ENC_GetENCFlag <= USED 0
+ENC_GetINTFlag <= USED 0
+ENC_GetInputPosition <= USED 0
+ENC_GetInputStatus <= USED 0
+ENC_GetNoiseCancelTime <= USED 0
+ENC_GetPWMSampleMode <= USED 0
+ENC_GetSampleMode <= USED 0
+ENC_Init <= USED 0
+ENC_SelectSampleMode <= USED 0
+ENC_SetCompareValue <= USED 0
+ENC_SetCounterMCMP <= USED 0
+ENC_SetCounterReload <= USED 0
+ENC_SetINTControl <= USED 0
+ENC_SetNoiseCancelTime <= USED 0
+ENC_SetPWMSampleMode <= USED 0
+ENC_SetPWMStop <= USED 0
+ENC_SetPhaseCountRate <= USED 0
+ENC_SetSWCapture <= USED 0
+ENC_SetSampleClk <= USED 0
+ENC_SetSampleDelay <= USED 0
+ENC_StartPositionDetection <= USED 0
+ENC_StopPositionDetection <= USED 0
+__asm___13_tmpm475_enc_c_ba084cf0____REV16 <= USED 0
+__asm___13_tmpm475_enc_c_ba084cf0____REVSH <= USED 0
+;FILE tmpm475_gpio.o
+GPIO_DisableFuncReg <= USED 0
+GPIO_EnableFuncReg <= USED 0
+GPIO_Init <= USED 0
+GPIO_ReadDataBit <= USED 0
+GPIO_SetInput <= USED 0
+GPIO_SetOpenDrain <= USED 0
+GPIO_SetOutput <= USED 0
+GPIO_SetPullDown <= USED 0
+GPIO_SetPullUp <= USED 0
+GPIO_WriteData <= USED 0
+__asm___14_tmpm475_gpio_c_ddc0d7ec____REV16 <= USED 0
+__asm___14_tmpm475_gpio_c_ddc0d7ec____REVSH <= USED 0
+;FILE tmpm475_tmrb.o
+TMRB_ChangeLeadingTiming <= USED 0
+TMRB_ChangeTrailingTiming <= USED 0
+TMRB_Disable <= USED 0
+TMRB_ExecuteSWCapture <= USED 0
+TMRB_GetCaptureValue <= USED 0
+TMRB_GetINTFactor <= USED 0
+TMRB_GetUpCntValue <= USED 0
+TMRB_SetCaptureTiming <= USED 0
+TMRB_SetClkInCoreHalt <= USED 0
+TMRB_SetDoubleBuf <= USED 0
+TMRB_SetExtStartTrg <= USED 0
+TMRB_SetFlipFlop <= USED 0
+TMRB_SetINTMask <= USED 0
+TMRB_SetIdleMode <= USED 0
+TMRB_SetSyncMode <= USED 0
+__asm___14_tmpm475_tmrb_c_6febcac3____REV16 <= USED 0
+__asm___14_tmpm475_tmrb_c_6febcac3____REVSH <= USED 0
+;FILE tmpm475_uart.o
+SIO_Disable <= USED 0
+SIO_GetRxData <= USED 0
+SIO_SetInputClock <= USED 0
+SIO_SetTxData <= USED 0
+UART_DefaultConfig <= USED 0
+UART_Disable <= USED 0
+UART_Enable <= USED 0
+UART_FIFOConfig <= USED 0
+UART_GetBufState <= USED 0
+UART_GetErrState <= USED 0
+UART_GetRxData <= USED 0
+UART_GetRxFIFOFillLevelStatus <= USED 0
+UART_GetRxFIFOOverRunStatus <= USED 0
+UART_GetTxFIFOFillLevelStatus <= USED 0
+UART_GetTxFIFOUnderRunStatus <= USED 0
+UART_Init <= USED 0
+UART_RxFIFOByteSel <= USED 0
+UART_RxFIFOClear <= USED 0
+UART_RxFIFOFillLevel <= USED 0
+UART_RxFIFOINTCtrl <= USED 0
+UART_RxFIFOINTSel <= USED 0
+UART_SWReset <= USED 0
+UART_SetFIFOTransferMode <= USED 0
+UART_SetIdleMode <= USED 0
+UART_SetInputClock <= USED 0
+UART_SetTxData <= USED 0
+UART_SetWakeUpFunc <= USED 0
+UART_TRxAutoDisable <= USED 0
+UART_TxBufferClear <= USED 0
+UART_TxFIFOClear <= USED 0
+UART_TxFIFOFillLevel <= USED 0
+UART_TxFIFOINTCtrl <= USED 0
+UART_TxFIFOINTSel <= USED 0
+__asm___14_tmpm475_uart_c_0e8dcd21____REV16 <= USED 0
+__asm___14_tmpm475_uart_c_0e8dcd21____REVSH <= USED 0
+;FILE tmpm475_wdt.o
+WDT_Disable <= USED 0
+WDT_SetOverflowOutput <= USED 0
+__asm___13_tmpm475_wdt_c_7af4186b____REV16 <= USED 0
+__asm___13_tmpm475_wdt_c_7af4186b____REVSH <= USED 0
+;FILE usercon.o
+__asm___9_usercon_c_dac____REV16 <= USED 0
+__asm___9_usercon_c_dac____REVSH <= USED 0
+check_id_error <= USED 0
+init_check_id_error <= USED 0

@@ -1,0 +1,512 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                01/Jul/2016  14:07:25
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Exe\TMPM475SK_rev10_pub.out
+#    Map file     =  
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\List\TMPM475SK_rev10_pub.map
+#    Command line =  
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\B_User.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\C_Control.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\calc.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\D_Driver.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\dac_drv.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\E_Sub.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\initial.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\interrupt.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\main.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\mcuip_drv_ave.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\startup_TMPM475.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\system_int.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\system_TMPM475.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_adc.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_enc.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_gpio.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_tmrb.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_uart.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\tmpm475_wdt.o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj\usercon.o
+#        -o
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Exe\TMPM475SK_rev10_pub.out
+#        --map
+#        C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\List\TMPM475SK_rev10_pub.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.3\arm\config\linker\Toshiba\TMPM475FDFG.icf" --semihosting --entry
+#        __iar_program_start "C:\Program Files (x86)\IAR Systems\Embedded
+#        Workbench 7.3\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a" --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000100 to 0x0007ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x200087ff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x1c0
+  .intvec            ro code  0x00000000   0x1c0  startup_TMPM475.o [1]
+                            - 0x000001c0   0x1c0
+
+"P1":                                     0x2a60
+  .text              ro code  0x000001c0   0x6b8  mcuip_drv_ave.o [1]
+  .text              ro code  0x00000878    0xf6  tmpm475_adc.o [1]
+  .text              ro code  0x00000970   0x68e  C_Control.o [1]
+  .text              ro code  0x00001000   0x17a  calc.o [1]
+  .text              ro code  0x0000117a     0x8  abs.o [3]
+  .text              ro code  0x00001184    0x9a  E_Sub.o [1]
+  .text              ro code  0x00001220   0x132  I64DivMod.o [5]
+  .text              ro code  0x00001354    0x22  S64Shr.o [5]
+  .text              ro code  0x00001378     0x2  I64DivZer.o [5]
+  .text              ro code  0x0000137c   0x688  usercon.o [1]
+  .text              ro code  0x00001a04    0xcc  tmpm475_gpio.o [1]
+  .text              ro code  0x00001ad0   0x238  dac_drv.o [1]
+  .text              ro code  0x00001d08    0xca  tmpm475_uart.o [1]
+  .text              ro code  0x00001dd4   0x2c6  D_Driver.o [1]
+  .text              ro code  0x0000209c   0x1c0  B_User.o [1]
+  .text              ro code  0x0000225c   0x19c  initial.o [1]
+  .text              ro code  0x000023f8    0x30  tmpm475_tmrb.o [1]
+  .text              ro code  0x00002428    0x4c  tmpm475_wdt.o [1]
+  .text              ro code  0x00002474   0x16c  interrupt.o [1]
+  .text              ro code  0x000025e0   0x140  system_TMPM475.o [1]
+  .rodata            const    0x00002720   0x104  calc.o [1]
+  .text              ro code  0x00002824   0x100  system_int.o [1]
+  .text              ro code  0x00002924    0x98  main.o [1]
+  .rodata            const    0x000029bc    0x78  tmpm475_gpio.o [1]
+  .text              ro code  0x00002a34    0x40  zero_init3.o [5]
+  .rodata            const    0x00002a74    0x34  tmpm475_gpio.o [1]
+  .rodata            const    0x00002aa8    0x30  tmpm475_adc.o [1]
+  .rodata            const    0x00002ad8    0x30  tmpm475_adc.o [1]
+  .text              ro code  0x00002b08    0x2c  copy_init3.o [5]
+  .text              ro code  0x00002b34    0x28  data_init.o [5]
+  .text              ro code  0x00002b5c    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x00002b80    0x24  - Linker created -
+  .text              ro code  0x00002ba4    0x1a  cmain.o [5]
+  .text              ro code  0x00002bbe     0x4  low_level_init.o [3]
+  .text              ro code  0x00002bc2     0x4  exit.o [3]
+  .text              ro code  0x00002bc8     0xa  cexit.o [5]
+  .text              ro code  0x00002bd4    0x14  exit.o [6]
+  .text              ro code  0x00002be8    0x10  startup_TMPM475.o [1]
+  .text              ro code  0x00002bf8     0xc  cstartup_M.o [5]
+  Initializer bytes  const    0x00002c04     0xc  <for P2-1>
+  .rodata            const    0x00002c10     0x4  tmpm475_adc.o [1]
+  .text              ro code  0x00002c14     0x4  startup_TMPM475.o [1]
+  .text              ro code  0x00002c18     0x4  startup_TMPM475.o [1]
+  .text              ro code  0x00002c1c     0x4  startup_TMPM475.o [1]
+  .rodata            const    0x00002c20     0x0  zero_init3.o [5]
+  .rodata            const    0x00002c20     0x0  copy_init3.o [5]
+                            - 0x00002c20  0x2a60
+
+"P2", part 1 of 3:                           0xc
+  P2-1                        0x20000000     0xc  <Init block>
+    .data            inited   0x20000000     0x4  dac_drv.o [1]
+    .data            inited   0x20000004     0x8  usercon.o [1]
+                            - 0x2000000c     0xc
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000010   0x400  <Block>
+    CSTACK           uninit   0x20000010   0x400  <Block tail>
+                            - 0x20000410   0x400
+
+"P2", part 3 of 3:                         0x108
+  .bss               zero     0x20000410    0xd8  main.o [1]
+  .bss               zero     0x200004e8     0x8  dac_drv.o [1]
+  .bss               zero     0x200004f0     0x4  B_User.o [1]
+  .bss               zero     0x200004f4     0x4  C_Control.o [1]
+  .bss               zero     0x200004f8     0x4  usercon.o [1]
+  .bss               zero     0x200004fc     0x4  usercon.o [1]
+  .bss               zero     0x20000500     0x4  usercon.o [1]
+  .bss               zero     0x20000504     0x2  dac_drv.o [1]
+  .bss               zero     0x20000506     0x2  dac_drv.o [1]
+  .bss               zero     0x20000508     0x2  main.o [1]
+  .bss               zero     0x2000050a     0x2  usercon.o [1]
+  .bss               zero     0x2000050c     0x2  usercon.o [1]
+  .bss               zero     0x2000050e     0x2  usercon.o [1]
+  .bss               zero     0x20000510     0x1  usercon.o [1]
+  .bss               zero     0x20000511     0x1  usercon.o [1]
+  .bss               zero     0x20000512     0x1  usercon.o [1]
+  .bss               zero     0x20000513     0x1  usercon.o [1]
+  .bss               zero     0x20000514     0x1  usercon.o [1]
+  .bss               zero     0x20000515     0x1  usercon.o [1]
+  .bss               zero     0x20000516     0x1  usercon.o [1]
+  .bss               zero     0x20000517     0x1  usercon.o [1]
+                            - 0x20000518   0x108
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x108:
+          0x20000410  0x108
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+          0x00002c04    0xc
+    1 destination range, total size 0xc:
+          0x20000000    0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj: [1]
+    B_User.o               448                 4
+    C_Control.o          1 678                 4
+    D_Driver.o             710
+    E_Sub.o                154
+    calc.o                 378      260
+    dac_drv.o              568        4       16
+    initial.o              412
+    interrupt.o            364
+    main.o                 152               218
+    mcuip_drv_ave.o      1 720
+    startup_TMPM475.o      476
+    system_TMPM475.o       320
+    system_int.o           256
+    tmpm475_adc.o          246      100
+    tmpm475_gpio.o         204      172
+    tmpm475_tmrb.o          48
+    tmpm475_uart.o         202
+    tmpm475_wdt.o           76
+    usercon.o            1 672        8       34
+    --------------------------------------------
+    Total:              10 084      544      276
+
+command line: [2]
+    --------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abs.o                    8
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                  16
+
+m7M_tls.a: [4]
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:                  34
+
+rt7M_tl.a: [5]
+    I64DivMod.o            306
+    I64DivZer.o              2
+    S64Shr.o                34
+    cexit.o                 10
+    cmain.o                 26
+    copy_init3.o            44
+    cstartup_M.o            12
+    data_init.o             40
+    zero_init3.o            64
+    --------------------------------------------
+    Total:                 538
+
+shb_l.a: [6]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Gaps                    22        2
+    Linker created                   36    1 024
+------------------------------------------------
+    Grand Total:        10 714      582    1 300
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00002b80          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00002ba4          --   Gb  - Linker created -
+?main                   0x00002ba5         Code  Gb  cmain.o [5]
+ADA_REGx_Address        0x00002aa8   0x30  Data  Lc  tmpm475_adc.o [1]
+ADB_REGx_Address        0x00002ad8   0x30  Data  Lc  tmpm475_adc.o [1]
+ADC_Enable              0x000008c3   0x1c  Code  Gb  tmpm475_adc.o [1]
+ADC_GetConvertResult    0x00000903   0x28  Code  Gb  tmpm475_adc.o [1]
+ADC_SetClk              0x000008a3   0x20  Code  Gb  tmpm475_adc.o [1]
+ADC_SetConstantTrg      0x0000093d   0x32  Code  Gb  tmpm475_adc.o [1]
+ADC_Start               0x000008df   0x24  Code  Gb  tmpm475_adc.o [1]
+B_Motor_Init            0x0000209d  0x122  Code  Gb  B_User.o [1]
+B_User_MotorControl     0x000021bf   0x78  Code  Gb  B_User.o [1]
+BusFault_Handler        0x0000282b    0x2  Code  Gb  system_int.o [1]
+CSTACK$$Base            0x20000010          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000410          --   Gb  - Linker created -
+C_Common                0x00000a29   0x5c  Code  Gb  C_Control.o [1]
+C_Control_Ref_Model     0x00000979   0xb0  Code  Gb  C_Control.o [1]
+C_Stage_Bootstrap       0x00000b69   0x42  Code  Gb  C_Control.o [1]
+C_Stage_Change_up       0x00000df1  0x150  Code  Gb  C_Control.o [1]
+C_Stage_Emergency       0x00000b09   0x60  Code  Gb  C_Control.o [1]
+C_Stage_Force           0x00000d0b   0xe6  Code  Gb  C_Control.o [1]
+C_Stage_Initposition    0x00000bab  0x160  Code  Gb  C_Control.o [1]
+C_Stage_Steady_A        0x00000f45   0x76  Code  Gb  C_Control.o [1]
+C_Stage_Stop            0x00000a85   0x84  Code  Gb  C_Control.o [1]
+C_command_limit_sub     0x00000fbb   0x44  Code  Lc  C_Control.o [1]
+Cal_Vdq                 0x00001001   0x28  Code  Gb  calc.o [1]
+D_Check_OverCurrent     0x00002061   0x3a  Code  Gb  D_Driver.o [1]
+D_Control_Speed         0x00001edf  0x104  Code  Gb  D_Driver.o [1]
+D_Detect_Rotor_Position
+                        0x00001dd5  0x10a  Code  Gb  D_Driver.o [1]
+D_SetZeroCurrent        0x00001fe3   0x74  Code  Gb  D_Driver.o [1]
+DacData                 0x200004e8    0x8  Data  Gb  dac_drv.o [1]
+DacLocalWriteInit       0x00001bdb   0x4e  Code  Lc  dac_drv.o [1]
+DacNo                   0x20000000    0x4  Data  Gb  dac_drv.o [1]
+DacWriteContinue        0x00001c3f   0x8e  Code  Gb  dac_drv.o [1]
+DacWriteStart           0x00001c29   0x16  Code  Gb  dac_drv.o [1]
+DebugMon_Handler        0x00002831    0x2  Code  Gb  system_int.o [1]
+E_Cosine                0x00001211    0xe  Code  Gb  E_Sub.o [1]
+E_Sine                  0x00001185   0x84  Code  Gb  E_Sub.o [1]
+E_Sqrt                  0x00001029   0xc2  Code  Lc  calc.o [1]
+GPIO_Base               0x00002a74   0x34  Data  Gb  tmpm475_gpio.o [1]
+GPIO_ReadData           0x00001a05   0x16  Code  Gb  tmpm475_gpio.o [1]
+GPIO_SFRs               0x000029bc   0x78  Data  Gb  tmpm475_gpio.o [1]
+GPIO_SetInputEnableReg  0x00001a93   0x36  Code  Gb  tmpm475_gpio.o [1]
+GPIO_SetOutputEnableReg
+                        0x00001a5d   0x36  Code  Gb  tmpm475_gpio.o [1]
+GPIO_WriteDataBit       0x00001a1b   0x42  Code  Gb  tmpm475_gpio.o [1]
+HardFault_Handler       0x00002827    0x2  Code  Gb  system_int.o [1]
+INT0_IRQHandler         0x00002837    0x2  Code  Gb  system_int.o [1]
+INT1_IRQHandler         0x00002839    0x2  Code  Gb  system_int.o [1]
+INT2_IRQHandler         0x0000283b    0x2  Code  Gb  system_int.o [1]
+INT3_IRQHandler         0x0000283d    0x2  Code  Gb  system_int.o [1]
+INT4_IRQHandler         0x0000283f    0x2  Code  Gb  system_int.o [1]
+INT5_IRQHandler         0x00002841    0x2  Code  Gb  system_int.o [1]
+INT6_IRQHandler         0x000028b7    0x2  Code  Gb  system_int.o [1]
+INT7_IRQHandler         0x000028b9    0x2  Code  Gb  system_int.o [1]
+INT8_IRQHandler         0x000028df    0x2  Code  Gb  system_int.o [1]
+INT9_IRQHandler         0x000028e1    0x2  Code  Gb  system_int.o [1]
+INTADACPA_IRQHandler    0x000028bf    0x2  Code  Gb  system_int.o [1]
+INTADACPB_IRQHandler    0x000028c3    0x2  Code  Gb  system_int.o [1]
+INTADAPDA_IRQHandler    0x00002881    0x2  Code  Gb  system_int.o [1]
+INTADAPDB_IRQHandler    0x00002885    0x2  Code  Gb  system_int.o [1]
+INTADASFT_IRQHandler    0x000028d7    0x2  Code  Gb  system_int.o [1]
+INTADATMR_IRQHandler    0x000028db    0x2  Code  Gb  system_int.o [1]
+INTADBCPA_IRQHandler    0x000028c1    0x2  Code  Gb  system_int.o [1]
+INTADBCPB_IRQHandler    0x000028c5    0x2  Code  Gb  system_int.o [1]
+INTADBPDA_IRQHandler    0x00002883    0x2  Code  Gb  system_int.o [1]
+INTADBPDB_IRQHandler    0x00002887    0x2  Code  Gb  system_int.o [1]
+INTADBSFT_IRQHandler    0x000028d9    0x2  Code  Gb  system_int.o [1]
+INTADBTMR_IRQHandler    0x000028dd    0x2  Code  Gb  system_int.o [1]
+INTA_IRQHandler         0x000028e3    0x2  Code  Gb  system_int.o [1]
+INTB_IRQHandler         0x000028e5    0x2  Code  Gb  system_int.o [1]
+INTCAP00_IRQHandler     0x000028a7    0x2  Code  Gb  system_int.o [1]
+INTCAP01_IRQHandler     0x000028a9    0x2  Code  Gb  system_int.o [1]
+INTCAP10_IRQHandler     0x000028ab    0x2  Code  Gb  system_int.o [1]
+INTCAP11_IRQHandler     0x000028ad    0x2  Code  Gb  system_int.o [1]
+INTCAP20_IRQHandler     0x000028cf    0x2  Code  Gb  system_int.o [1]
+INTCAP21_IRQHandler     0x000028d1    0x2  Code  Gb  system_int.o [1]
+INTCAP30_IRQHandler     0x000028d3    0x2  Code  Gb  system_int.o [1]
+INTCAP31_IRQHandler     0x000028d5    0x2  Code  Gb  system_int.o [1]
+INTCAP40_IRQHandler     0x000028af    0x2  Code  Gb  system_int.o [1]
+INTCAP41_IRQHandler     0x000028b1    0x2  Code  Gb  system_int.o [1]
+INTCAP50_IRQHandler     0x000028b3    0x2  Code  Gb  system_int.o [1]
+INTCAP51_IRQHandler     0x000028b5    0x2  Code  Gb  system_int.o [1]
+INTCAP60_IRQHandler     0x000028f7    0x2  Code  Gb  system_int.o [1]
+INTCAP61_IRQHandler     0x000028f9    0x2  Code  Gb  system_int.o [1]
+INTCAP70_IRQHandler     0x000028fb    0x2  Code  Gb  system_int.o [1]
+INTCAP71_IRQHandler     0x000028fd    0x2  Code  Gb  system_int.o [1]
+INTCAP80_IRQHandler     0x00002915    0x2  Code  Gb  system_int.o [1]
+INTCAP81_IRQHandler     0x00002917    0x2  Code  Gb  system_int.o [1]
+INTCAP90_IRQHandler     0x00002919    0x2  Code  Gb  system_int.o [1]
+INTCAP91_IRQHandler     0x0000291b    0x2  Code  Gb  system_int.o [1]
+INTC_IRQHandler         0x000028ff    0x2  Code  Gb  system_int.o [1]
+INTDMACAERR_IRQHandler  0x0000291f    0x2  Code  Gb  system_int.o [1]
+INTDMACATC_IRQHandler   0x0000291d    0x2  Code  Gb  system_int.o [1]
+INTD_IRQHandler         0x00002901    0x2  Code  Gb  system_int.o [1]
+INTEMG0_IRQHandler      0x00002879    0x2  Code  Gb  system_int.o [1]
+INTEMG1_IRQHandler      0x0000287b    0x2  Code  Gb  system_int.o [1]
+INTENC00_IRQHandler     0x000028e7    0x2  Code  Gb  system_int.o [1]
+INTENC01_IRQHandler     0x000028e9    0x2  Code  Gb  system_int.o [1]
+INTENC10_IRQHandler     0x00002921    0x2  Code  Gb  system_int.o [1]
+INTENC11_IRQHandler     0x00002923    0x2  Code  Gb  system_int.o [1]
+INTE_IRQHandler         0x00002903    0x2  Code  Gb  system_int.o [1]
+INTF_IRQHandler         0x00002905    0x2  Code  Gb  system_int.o [1]
+INTOVV0_IRQHandler      0x0000287d    0x2  Code  Gb  system_int.o [1]
+INTOVV1_IRQHandler      0x0000287f    0x2  Code  Gb  system_int.o [1]
+INTPMD0_IRQHandler      0x000028a3    0x2  Code  Gb  system_int.o [1]
+INTPMD1_IRQHandler      0x000028a5    0x2  Code  Gb  system_int.o [1]
+INTRX0_IRQHandler       0x00002843    0x2  Code  Gb  system_int.o [1]
+INTRX1_IRQHandler       0x00002847    0x2  Code  Gb  system_int.o [1]
+INTRX2_IRQHandler       0x000028bb    0x2  Code  Gb  system_int.o [1]
+INTRX3_IRQHandler       0x000028eb    0x2  Code  Gb  system_int.o [1]
+INTSBI0_IRQHandler      0x0000290b    0x2  Code  Gb  system_int.o [1]
+INTTB00_IRQHandler      0x00002889    0xc  Code  Gb  system_int.o [1]
+INTTB01_IRQHandler      0x00002895    0x2  Code  Gb  system_int.o [1]
+INTTB10_IRQHandler      0x00002897    0x2  Code  Gb  system_int.o [1]
+INTTB11_IRQHandler      0x00002899    0x2  Code  Gb  system_int.o [1]
+INTTB20_IRQHandler      0x000028c7    0x2  Code  Gb  system_int.o [1]
+INTTB21_IRQHandler      0x000028c9    0x2  Code  Gb  system_int.o [1]
+INTTB30_IRQHandler      0x000028cb    0x2  Code  Gb  system_int.o [1]
+INTTB31_IRQHandler      0x000028cd    0x2  Code  Gb  system_int.o [1]
+INTTB40_IRQHandler      0x0000289b    0x2  Code  Gb  system_int.o [1]
+INTTB41_IRQHandler      0x0000289d    0x2  Code  Gb  system_int.o [1]
+INTTB50_IRQHandler      0x0000289f    0x2  Code  Gb  system_int.o [1]
+INTTB51_IRQHandler      0x000028a1    0x2  Code  Gb  system_int.o [1]
+INTTB60_IRQHandler      0x000028ef    0x2  Code  Gb  system_int.o [1]
+INTTB61_IRQHandler      0x000028f1    0x2  Code  Gb  system_int.o [1]
+INTTB70_IRQHandler      0x000028f3    0x2  Code  Gb  system_int.o [1]
+INTTB71_IRQHandler      0x000028f5    0x2  Code  Gb  system_int.o [1]
+INTTB80_IRQHandler      0x0000290d    0x2  Code  Gb  system_int.o [1]
+INTTB81_IRQHandler      0x0000290f    0x2  Code  Gb  system_int.o [1]
+INTTB90_IRQHandler      0x00002911    0x2  Code  Gb  system_int.o [1]
+INTTB91_IRQHandler      0x00002913    0x2  Code  Gb  system_int.o [1]
+INTTX0_IRQHandler       0x00002845    0x2  Code  Gb  system_int.o [1]
+INTTX1_IRQHandler       0x00002849    0xe  Code  Gb  system_int.o [1]
+INTTX2_IRQHandler       0x000028bd    0x2  Code  Gb  system_int.o [1]
+INTTX3_IRQHandler       0x000028ed    0x2  Code  Gb  system_int.o [1]
+INTVCN0_IRQHandler      0x00002857    0x2  Code  Gb  system_int.o [1]
+INTVCN1                 0x00002481  0x154  Code  Gb  interrupt.o [1]
+INTVCN1_IRQHandler      0x00002859   0x18  Code  Gb  system_int.o [1]
+INTVCT0_IRQHandler      0x00002907    0x2  Code  Gb  system_int.o [1]
+INTVCT1_IRQHandler      0x00002909    0x2  Code  Gb  system_int.o [1]
+INT_interval_4kHz       0x00002475    0xc  Code  Gb  interrupt.o [1]
+IP_ADC_init             0x000006c3  0x16e  Code  Gb  mcuip_drv_ave.o [1]
+IP_PMD_init             0x000003fb  0x1a0  Code  Gb  mcuip_drv_ave.o [1]
+IP_VE_init              0x0000059b  0x128  Code  Gb  mcuip_drv_ave.o [1]
+M_Main_Counter          0x20000508    0x2  Data  Gb  main.o [1]
+MemManage_Handler       0x00002829    0x2  Code  Gb  system_int.o [1]
+Motor_ch1               0x20000410   0xd8  Data  Gb  main.o [1]
+NMI_Handler             0x00002825    0x2  Code  Gb  system_int.o [1]
+NVIC_ClearPendingIRQ    0x00001afb   0x14  Code  Lc  dac_drv.o [1]
+NVIC_ClearPendingIRQ    0x00002271   0x14  Code  Lc  initial.o [1]
+NVIC_EnableIRQ          0x00001ad1   0x14  Code  Lc  dac_drv.o [1]
+NVIC_EnableIRQ          0x0000225d   0x14  Code  Lc  initial.o [1]
+NVIC_GetPendingIRQ      0x00001ae5   0x16  Code  Lc  dac_drv.o [1]
+NVIC_SetPriority        0x00001b0f   0x22  Code  Lc  dac_drv.o [1]
+NVIC_SetPriority        0x00002285   0x22  Code  Lc  initial.o [1]
+PMD_GetEMG_Status       0x000001c1    0xe  Code  Gb  mcuip_drv_ave.o [1]
+PMD_ReleaseEMG_Protection
+                        0x000001cf   0x3c  Code  Gb  mcuip_drv_ave.o [1]
+PendSV_Handler          0x00002833    0x2  Code  Gb  system_int.o [1]
+Region$$Table$$Base     0x00002b80          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00002ba4          --   Gb  - Linker created -
+SIO_Enable              0x00001d09    0xa  Code  Gb  tmpm475_uart.o [1]
+SIO_Init                0x00001d13   0xc0  Code  Gb  tmpm475_uart.o [1]
+SVC_Handler             0x0000282f    0x2  Code  Gb  system_int.o [1]
+SysTick_Handler         0x00002835    0x2  Code  Gb  system_int.o [1]
+SystemInit              0x000025e1   0xfa  Code  Gb  system_TMPM475.o [1]
+TMRB_Enable             0x000023f9    0xa  Code  Gb  tmpm475_tmrb.o [1]
+TMRB_Init               0x00002407   0x22  Code  Gb  tmpm475_tmrb.o [1]
+TMRB_SetRunState        0x00002403    0x4  Code  Gb  tmpm475_tmrb.o [1]
+Table_Sqrt              0x00002720  0x104  Data  Gb  calc.o [1]
+UiOutDataStart          0x00001833  0x150  Code  Gb  usercon.o [1]
+Uikeyscan               0x000013f1  0x140  Code  Lc  usercon.o [1]
+UsageFault_Handler      0x0000282d    0x2  Code  Gb  system_int.o [1]
+VE_GetCurrentAdcData    0x0000023d   0x16  Code  Gb  mcuip_drv_ave.o [1]
+VE_GetPhaseCurrent      0x00000211   0x2c  Code  Gb  mcuip_drv_ave.o [1]
+VE_GetdataFromVEreg     0x00000253   0x20  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetModulType         0x000003ed    0xe  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetZeroCurrentData   0x000003dd   0x10  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Bootstrap
+                        0x000002cd    0xe  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Change_up
+                        0x0000037b   0x2a  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Emergency
+                        0x000003cf    0xe  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Force_i
+                        0x0000032b   0x2a  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Force_v
+                        0x00000355   0x26  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Initposition_i
+                        0x000002db   0x2a  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Initposition_v
+                        0x00000305   0x26  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Steady_A
+                        0x000003a5   0x2a  Code  Gb  mcuip_drv_ave.o [1]
+VE_SetdataToVEreg_Stop  0x00000273   0x5a  Code  Gb  mcuip_drv_ave.o [1]
+VE_Start                0x0000020b    0x6  Code  Gb  mcuip_drv_ave.o [1]
+WDT_Enable              0x00002453    0x8  Code  Gb  tmpm475_wdt.o [1]
+WDT_Init                0x00002441   0x12  Code  Gb  tmpm475_wdt.o [1]
+WDT_SetDetectTime       0x00002429   0x12  Code  Gb  tmpm475_wdt.o [1]
+WDT_SetOverflowOutput   0x0000243b    0x6  Code  Gb  tmpm475_wdt.o [1]
+WDT_WriteClearCode      0x0000245b    0x8  Code  Gb  tmpm475_wdt.o [1]
+__aeabi_lasr            0x00001355         Code  Gb  S64Shr.o [5]
+__aeabi_ldiv0           0x00001379         Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod         0x00001221         Code  Gb  I64DivMod.o [5]
+__aeabi_uldivmod        0x00001265         Code  Gb  I64DivMod.o [5]
+__cmain                 0x00002ba5         Code  Gb  cmain.o [5]
+__exit                  0x00002bd5   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x00002b09   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x00002b35   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x00002b5d         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x00002bf9         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x00002a35   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00002bbf    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_TMPM475.o [1]
+_call_main              0x00002bb1         Code  Gb  cmain.o [5]
+_exit                   0x00002bc9         Code  Gb  cexit.o [5]
+_main                   0x00002bbb         Code  Gb  cmain.o [5]
+abs                     0x0000117b    0x8  Code  Gb  abs.o [3]
+calc_ave                0x00000971    0x8  Code  Lc  C_Control.o [1]
+dac                     0x20000004    0x8  Data  Gb  usercon.o [1]
+exit                    0x00002bc3    0x4  Code  Gb  exit.o [3]
+flash_type1             0x20000515    0x1  Data  Lc  usercon.o [1]
+flash_type1_cycle       0x2000050a    0x2  Data  Lc  usercon.o [1]
+flash_type2             0x20000516    0x1  Data  Lc  usercon.o [1]
+flash_type2_cycle       0x2000050c    0x2  Data  Lc  usercon.o [1]
+flash_type3             0x20000517    0x1  Data  Lc  usercon.o [1]
+flash_type3_cycle       0x2000050e    0x2  Data  Lc  usercon.o [1]
+init_ADCen              0x000022f1   0x32  Code  Gb  initial.o [1]
+init_Dac                0x00001b31   0xaa  Code  Gb  dac_drv.o [1]
+init_PMDen              0x00002323   0x28  Code  Gb  initial.o [1]
+init_Timer_interval4kH  0x000022a7   0x4a  Code  Gb  initial.o [1]
+init_Uikey              0x0000139d   0x54  Code  Lc  usercon.o [1]
+init_VEen               0x0000234b   0x6e  Code  Gb  initial.o [1]
+init_WDT                0x000023dd   0x1c  Code  Gb  initial.o [1]
+init_led                0x00001649   0x54  Code  Lc  usercon.o [1]
+init_soft_adc           0x00001531   0x1a  Code  Lc  usercon.o [1]
+init_user_control       0x0000137d   0x10  Code  Gb  usercon.o [1]
+key_chatacnt            0x20000513    0x1  Data  Lc  usercon.o [1]
+keydata                 0x20000511    0x1  Data  Lc  usercon.o [1]
+keydata_old             0x20000512    0x1  Data  Lc  usercon.o [1]
+keyportbuf_old          0x200004f8    0x4  Data  Lc  usercon.o [1]
+led_display             0x0000169d  0x196  Code  Lc  usercon.o [1]
+main                    0x00002925   0x32  Code  Gb  main.o [1]
+main_loop               0x00002957   0x5e  Code  Gb  main.o [1]
+motor_ready             0x20000510    0x1  Data  Lc  usercon.o [1]
+muljc                   0x000010f1   0x62  Code  Lc  calc.o [1]
+proc_xSET               0x00000879   0x2a  Code  Lc  tmpm475_adc.o [1]
+sadd32                  0x00001153   0x28  Code  Lc  calc.o [1]
+sw_chatacnt             0x20000514    0x1  Data  Lc  usercon.o [1]
+swdata                  0x200004fc    0x4  Data  Lc  usercon.o [1]
+swportbuf_old           0x20000500    0x4  Data  Lc  usercon.o [1]
+target_spd1             0x200004f0    0x4  Data  Gb  B_User.o [1]
+user_control            0x0000138d   0x10  Code  Gb  usercon.o [1]
+user_setting            0x0000154b   0xfe  Code  Lc  usercon.o [1]
+
+
+[1] = C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\IAR\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  10 714 bytes of readonly  code memory
+     582 bytes of readonly  data memory
+   1 300 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

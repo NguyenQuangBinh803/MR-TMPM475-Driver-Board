@@ -1,0 +1,32 @@
+main.pbi: \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source\main.c \
+  D:\soft\arm\inc\c\stdlib.h D:\soft\arm\inc\c\ycheck.h \
+  D:\soft\arm\inc\c\yvals.h D:\soft\arm\inc\c\DLib_Defaults.h \
+  D:\\soft\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\soft\arm\inc\c\DLib_Product.h D:\soft\arm\inc\c\ysizet.h \
+  D:\soft\arm\inc\c\DLib_Product_stdlib.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/ipdefine.h \
+  D:\soft\arm\CMSIS\DSP\Include\arm_math.h \
+  D:\soft\arm\CMSIS\Core\Include\cmsis_compiler.h \
+  D:\soft\arm\inc\c\stdint.h \
+  D:\soft\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  D:\soft\arm\inc\c\iccarm_builtin.h D:\soft\arm\inc\c\string.h \
+  D:\soft\arm\inc\c\DLib_Product_string.h D:\soft\arm\inc\c\math.h \
+  D:\soft\arm\inc\c\DLib_float_setup.h D:\soft\arm\inc\c\float.h \
+  D:\soft\arm\inc\c\limits.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\IAR\..\source\Libraries\TX04_CMSIS\TMPM475.h \
+  D:\soft\arm\CMSIS\Core\Include\core_cm4.h \
+  D:\soft\arm\CMSIS\Core\Include/cmsis_version.h \
+  D:\soft\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\IAR\..\source\Libraries\TX04_CMSIS/system_TMPM475.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/sys_macro.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/D_Para.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/D_Para_ch1.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\IAR\..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_wdt.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\IAR\..\source\Libraries\TX04_Periph_Driver\inc/tx04_common.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/D_Driver.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/C_Control.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/B_User.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/initial.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/usercon.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source/dac_drv.h

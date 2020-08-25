@@ -1,0 +1,50 @@
+#Generating source browse information for project TMPM475SK_rev10_pub
+
+
+#Abbreviations
+cc = D$:\soft\common\bin\SourceIndexer.exe
+ll = D$:\soft\common\bin\PbdLink.exe
+bd = D$:\soft\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build system_TMPM475.pbi : index system_TMPM475.xcl
+build tmpm475_adc.pbi : index tmpm475_adc.xcl
+build tmpm475_enc.pbi : index tmpm475_enc.xcl
+build tmpm475_gpio.pbi : index tmpm475_gpio.xcl
+build tmpm475_tmrb.pbi : index tmpm475_tmrb.xcl
+build tmpm475_uart.pbi : index tmpm475_uart.xcl
+build tmpm475_wdt.pbi : index tmpm475_wdt.xcl
+build B_User.pbi : index B_User.xcl
+build C_Control.pbi : index C_Control.xcl
+build calc.pbi : index calc.xcl
+build D_Driver.pbi : index D_Driver.xcl
+build dac_drv.pbi : index dac_drv.xcl
+build E_Sub.pbi : index E_Sub.xcl
+build initial.pbi : index initial.xcl
+build interrupt.pbi : index interrupt.xcl
+build main.pbi : index main.xcl
+build mcuip_drv_ave.pbi : index mcuip_drv_ave.xcl
+build system_int.pbi : index system_int.xcl
+build usercon.pbi : index usercon.xcl
+build TMPM475SK_rev10_pub_part0.pbi : link system_TMPM475.pbi tmpm475_adc.pbi tmpm475_enc.pbi tmpm475_gpio.pbi
+build TMPM475SK_rev10_pub_part1.pbi : link tmpm475_tmrb.pbi tmpm475_uart.pbi tmpm475_wdt.pbi B_User.pbi
+build TMPM475SK_rev10_pub_part2.pbi : link C_Control.pbi calc.pbi D_Driver.pbi dac_drv.pbi
+build TMPM475SK_rev10_pub_part3.pbi : link E_Sub.pbi initial.pbi interrupt.pbi main.pbi
+build TMPM475SK_rev10_pub_part4.pbi : link mcuip_drv_ave.pbi system_int.pbi usercon.pbi
+build TMPM475SK_rev10_pub.pbd : link TMPM475SK_rev10_pub_part0.pbi TMPM475SK_rev10_pub_part1.pbi TMPM475SK_rev10_pub_part2.pbi TMPM475SK_rev10_pub_part3.pbi TMPM475SK_rev10_pub_part4.pbi
+build TMPM475SK_rev10_pub.pbw : browsedata TMPM475SK_rev10_pub.pbd
+
+

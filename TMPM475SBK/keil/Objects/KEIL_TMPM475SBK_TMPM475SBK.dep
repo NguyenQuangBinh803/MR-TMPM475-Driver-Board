@@ -1,0 +1,438 @@
+Dependencies for Project 'KEIL_TMPM475SBK', Target 'TMPM475SBK': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\source\B_User.c)(0x5EC5F1B7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\b_user.o --omf_browse .\objects\b_user.crf --depend .\objects\b_user.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\usercon.h)(0x55C3493C)
+I (..\source\nguyen_motor_app.h)(0x5EC775D9)
+I (..\source\B_User.h)(0x55C34820)
+F (..\source\C_Control.c)(0x5EC7573F)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\c_control.o --omf_browse .\objects\c_control.crf --depend .\objects\c_control.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\E_Sub.h)(0x55C34968)
+I (..\source\calc.h)(0x55C46F6C)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\nguyen_motor_app.h)(0x5EC775D9)
+I (..\source\C_Control.h)(0x55C3482A)
+F (..\source\calc.c)(0x57764374)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\calc.o --omf_browse .\objects\calc.crf --depend .\objects\calc.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\calc.h)(0x55C46F6C)
+F (..\source\D_Driver.c)(0x55C365C2)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\d_driver.o --omf_browse .\objects\d_driver.crf --depend .\objects\d_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_adc.h)(0x55A91558)
+I (..\source\D_Driver.h)(0x55C34826)
+F (..\source\dac_drv.c)(0x5775DF4E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\dac_drv.o --omf_browse .\objects\dac_drv.crf --depend .\objects\dac_drv.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\dac_drv.h)(0x55DD572E)
+F (..\source\E_Sub.c)(0x55C34814)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\e_sub.o --omf_browse .\objects\e_sub.crf --depend .\objects\e_sub.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\E_Sub.h)(0x55C34968)
+F (..\source\initial.c)(0x5EC36141)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\initial.o --omf_browse .\objects\initial.crf --depend .\objects\initial.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_wdt.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_tmrb.h)(0x54C85504)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\initial.h)(0x5E53945A)
+F (..\source\interrupt.c)(0x5EC34D70)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\calc.h)(0x55C46F6C)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\D_Driver.h)(0x55C34826)
+I (..\source\usercon.h)(0x55C3493C)
+I (..\source\interrupt.h)(0x55C34838)
+F (..\source\main.c)(0x5EC796B7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_wdt.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\D_Driver.h)(0x55C34826)
+I (..\source\C_Control.h)(0x55C3482A)
+I (..\source\B_User.h)(0x55C34820)
+I (..\source\initial.h)(0x5E53945A)
+I (..\source\usercon.h)(0x55C3493C)
+I (..\source\dac_drv.h)(0x55DD572E)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (..\source\nguyen_encoder.h)(0x5EC771C5)
+I (..\source\tmpm475_can_int.h)(0x5EC73AEB)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_can.h)(0x5EBE0E40)
+F (..\source\mcuip_drv_ave.c)(0x55CC6EB2)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\mcuip_drv_ave.o --omf_browse .\objects\mcuip_drv_ave.crf --depend .\objects\mcuip_drv_ave.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_adc.h)(0x55A91558)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+F (..\source\system_int.c)(0x5EC5D7F7)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\system_int.o --omf_browse .\objects\system_int.crf --depend .\objects\system_int.d)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\interrupt.h)(0x55C34838)
+I (..\source\B_User.h)(0x55C34820)
+I (..\source\dac_drv.h)(0x55DD572E)
+I (..\source\system_int.h)(0x55C34942)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+F (..\source\usercon.c)(0x5EC5FC0C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\usercon.o --omf_browse .\objects\usercon.crf --depend .\objects\usercon.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_adc.h)(0x55A91558)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\dac_drv.h)(0x55DD572E)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (..\source\tmpm475_can_int.h)(0x5EC73AEB)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_can.h)(0x5EBE0E40)
+I (..\source\nguyen_motor_app.h)(0x5EC775D9)
+I (..\source\usercon.h)(0x55C3493C)
+F (..\source\nguyen_uart.c)(0x5EBCCECC)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\nguyen_uart.o --omf_browse .\objects\nguyen_uart.crf --depend .\objects\nguyen_uart.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+F (..\source\tmpm475_can_int.c)(0x5EC75C26)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_can_int.o --omf_browse .\objects\tmpm475_can_int.crf --depend .\objects\tmpm475_can_int.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\tmpm475_can_int.h)(0x5EC73AEB)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_can.h)(0x5EBE0E40)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (..\source\nguyen_motor_app.h)(0x5EC775D9)
+F (..\source\nguyen_encoder.c)(0x5EC77BC3)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\nguyen_encoder.o --omf_browse .\objects\nguyen_encoder.crf --depend .\objects\nguyen_encoder.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (..\source\nguyen_encoder.h)(0x5EC771C5)
+F (..\source\nguyen_motor_app.c)(0x5EC7982F)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\nguyen_motor_app.o --omf_browse .\objects\nguyen_motor_app.crf --depend .\objects\nguyen_motor_app.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (..\source\ipdefine.h)(0x5E144A3D)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AE028)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\sys_macro.h)(0x55C34948)
+I (..\source\D_Para.h)(0x5EBCCDA4)
+I (..\source\D_Para_ch1.h)(0x5EBCAA9B)
+I (..\source\mcuip_drv_ave.h)(0x55CC6EAA)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\tmpm475_can_int.h)(0x5EC73AEB)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_can.h)(0x5EBE0E40)
+I (..\source\nguyen_uart.h)(0x5EC350E1)
+I (..\source\nguyen_encoder.h)(0x5EC771C5)
+I (..\source\nguyen_motor_app.h)(0x5EC775D9)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_adc.c)(0x551CF0B0)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_adc.o --omf_browse .\objects\tmpm475_adc.crf --depend .\objects\tmpm475_adc.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_adc.h)(0x55A91558)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_enc.c)(0x5508E72C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_enc.o --omf_browse .\objects\tmpm475_enc.crf --depend .\objects\tmpm475_enc.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_enc.h)(0x5508E72C)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_gpio.c)(0x5508E72C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_gpio.o --omf_browse .\objects\tmpm475_gpio.crf --depend .\objects\tmpm475_gpio.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_gpio.h)(0x54F423FC)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_tmrb.c)(0x54C85504)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_tmrb.o --omf_browse .\objects\tmpm475_tmrb.crf --depend .\objects\tmpm475_tmrb.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_tmrb.h)(0x54C85504)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_uart.c)(0x55AB4E88)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_uart.o --omf_browse .\objects\tmpm475_uart.crf --depend .\objects\tmpm475_uart.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_uart.h)(0x55128298)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_wdt.c)(0x54F423FC)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_wdt.o --omf_browse .\objects\tmpm475_wdt.crf --depend .\objects\tmpm475_wdt.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_wdt.h)(0x54F423FC)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (..\source\Libraries\TX04_Periph_Driver\src\tmpm475_can.c)(0x5EB42ED6)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\tmpm475_can.o --omf_browse .\objects\tmpm475_can.crf --depend .\objects\tmpm475_can.d)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tmpm475_can.h)(0x5EBE0E40)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)
+I (..\source\Libraries\TX04_Periph_Driver\inc\tx04_common.h)(0x5EBCCEE8)
+F (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM4lf_math.lib)(0x5D259EC6)()
+F (C:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.2\Source\retarget_io.c)(0x584E37CE)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AE022)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5D9AE028)
+I (.\RTE\_TMPM475SBK\RTE_Components.h)(0x5E159BD0)
+F (RTE\Device\TMPM475FDFG\startup_TMPM475.s)(0x5518B92A)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TMPM475FDFG SETA 1"--list .\listings\startup_tmpm475.lst --xref -o .\objects\startup_tmpm475.o --depend .\objects\startup_tmpm475.d)
+F (RTE\Device\TMPM475FDFG\system_TMPM475.c)(0x5518B92A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source -I ..\source\Libraries\TX04_CMSIS\startup\arm-I.\RTE\_TMPM475SBK-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Driver\Include-IC:\Users\Nguyet\AppData\Local\Arm\Packs\Keil\TMPM4_DFP\1.2.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER-o .\objects\system_tmpm475.o --omf_browse .\objects\system_tmpm475.crf --depend .\objects\system_tmpm475.d)
+I (..\source\Libraries\TX04_CMSIS\TMPM475.h)(0x551CC76E)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Users\Nguyet\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (..\source\Libraries\TX04_CMSIS\system_TMPM475.h)(0x54FAA43E)

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork -I ..\source\Libraries\TX04_CMSIS -I ..\source\Libraries\TX04_Periph_Driver\inc -I ..\source
+-I C:\プロジェクト\東芝_TMPM475-SK\src\TMPM475SBK\keil\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\TMPM4_DFP\1.2.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="520" -DTMPM475FDFG -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DKEIL_VER
+-o .\objects\b_user.o --omf_browse .\objects\b_user.crf --depend .\objects\b_user.d --feedback ".\Objects\KEIL_TMPM475SBK.fed" "..\source\B_User.c"

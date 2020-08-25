@@ -1,0 +1,13 @@
+system_TMPM475.pbi: \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source\Libraries\TX04_CMSIS\system_TMPM475.c \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source\Libraries\TX04_CMSIS/TMPM475.h \
+  D:\soft\arm\CMSIS\Core\Include\core_cm4.h D:\soft\arm\inc\c\stdint.h \
+  D:\soft\arm\inc\c\ycheck.h D:\soft\arm\inc\c\yvals.h \
+  D:\soft\arm\inc\c\DLib_Defaults.h \
+  D:\\soft\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\soft\arm\inc\c\DLib_Product.h \
+  D:\soft\arm\CMSIS\Core\Include/cmsis_version.h \
+  D:\soft\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  D:\soft\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  D:\soft\arm\inc\c\iccarm_builtin.h \
+  D:\project\ROBOT\CD-ROM\SampleTMPM475SB\TMPM475SBK\source\Libraries\TX04_CMSIS/system_TMPM475.h
